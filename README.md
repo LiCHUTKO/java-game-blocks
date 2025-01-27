@@ -16,11 +16,7 @@ Aby rozpocząć pracę z tym projektem w Visual Studio Code, wykonaj następują
 1. Otwórz folder projektu w VS Code.
 2. Upewnij się, że masz zainstalowany Java Extension Pack.
 3. Otwórz folder `src`, aby przeglądać i edytować kod źródłowy.
-4. Użyj widoku `JAVA PROJECTS`, aby zarządzać zależnościami.
-
-## 🛠️ Zarządzanie Zależnościami
-
-Widok `JAVA PROJECTS` pozwala zarządzać zależnościami. Więcej szczegółów znajdziesz [tutaj](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. Otwórz i uruchom plik `Program.java`.
 
 ## 👥 Autorzy
 
