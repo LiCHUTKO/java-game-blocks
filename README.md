@@ -36,7 +36,3 @@ Widok `JAVA PROJECTS` pozwala zarządzać zależnościami. Więcej szczegółów
 - `Belka`: Klasa reprezentująca belkę, którą gracz steruje.
 - `Cegielka`: Klasa reprezentująca cegiełki, które piłeczka może zbić.
 - `SilnikKulki`: Klasa odpowiedzialna za animację piłeczki, dziedzicząca po `Thread`.
-
-## 📜 Licencja
-
-Ten projekt jest licencjonowany na podstawie licencji MIT. Więcej informacji znajdziesz w pliku LICENSE.
