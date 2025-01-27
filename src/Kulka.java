@@ -29,7 +29,9 @@ class Kulka extends Ellipse2D.Float
       if (getMinY() < 0 || getMaxY() > p.getHeight()) dy = -dy;
 
       if (this.intersects(p.b)) {
-         dy = -dy;
+         if (dy > 0 && getMaxY() - dy <= p.b.getMinY()) {
+            dy = -dy;
+         }
       }
 
       for (Cegielka cegielka : p.cegielki) {
