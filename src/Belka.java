@@ -1,0 +1,17 @@
+import java.awt.geom.Rectangle2D;
+
+class Belka extends Rectangle2D.Float
+{
+   Belka(int x)
+   {
+      this.x = x;
+      this.y = 300; // Przesunięcie belki niżej
+      this.width = 60;
+      this.height = 10;
+   }
+
+   void setX(int x)
+   {
+      this.x = x;
+   }
+}

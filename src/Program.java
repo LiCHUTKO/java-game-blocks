@@ -1,0 +1,24 @@
+import javax.swing.JFrame;
+
+public class Program
+{
+   public static void main(String[] args)
+   {
+      javax.swing.SwingUtilities.invokeLater(new Runnable()
+      {
+         public void run()
+         {
+            Plansza p;
+            p = new Plansza();
+
+            JFrame jf = new JFrame();
+            jf.add(p);
+
+            jf.setTitle("Gra");
+            jf.setSize(400, 400); // Zwiększenie wysokości okna
+            jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            jf.setVisible(true);
+         }
+      });
+   }
+}
