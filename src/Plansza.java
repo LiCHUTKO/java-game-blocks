@@ -19,14 +19,14 @@ class Plansza extends JPanel implements MouseMotionListener
       addMouseMotionListener(this);
 
       b = new Belka(100);
-      a = new Kulka(this, 200, 250, 1, 1); // Ustawienie piłeczki bliżej dołu planszy
+      a = new Kulka(this, 200, 250, 1, 1); 
       s = new SilnikKulki(a);
 
-      // Inicjalizacja cegiełek
-      cegielki = new Cegielka[50]; // Zwiększenie liczby cegiełek
+
+      cegielki = new Cegielka[50]; 
       Color[] colors = {Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.ORANGE};
       for (int i = 0; i < cegielki.length; i++) {
-         cegielki[i] = new Cegielka(30 + (i % 10) * 35, 30 + (i / 10) * 25, 30, 15, colors[i % colors.length]); // Dostosowanie rozmieszczenia cegiełek
+         cegielki[i] = new Cegielka(30 + (i % 10) * 35, 30 + (i / 10) * 25, 30, 15, colors[i % colors.length]);
       }
 
       punkty = 0;
@@ -47,7 +47,6 @@ class Plansza extends JPanel implements MouseMotionListener
          }
       }
 
-      // Wyświetlanie liczby punktów
       g2d.setColor(Color.BLACK);
       g2d.drawString("Punkty: " + punkty, 10, 20);
    }

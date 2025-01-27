@@ -5,7 +5,7 @@ class Belka extends Rectangle2D.Float
    Belka(int x)
    {
       this.x = x;
-      this.y = 300; // Przesunięcie belki niżej
+      this.y = 300;
       this.width = 60;
       this.height = 10;
    }

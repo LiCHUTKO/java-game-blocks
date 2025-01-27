@@ -15,7 +15,7 @@ public class Program
             jf.add(p);
 
             jf.setTitle("Gra");
-            jf.setSize(400, 400); // Zwiększenie wysokości okna
+            jf.setSize(400, 400);
             jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             jf.setVisible(true);
          }
