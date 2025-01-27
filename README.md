@@ -7,7 +7,6 @@ Witamy w Projekcie Gry w Javie! Ten projekt to prosta gra zaimplementowana w Jav
 Workspace zawiera następujące katalogi:
 
 - `📁 src`: Katalog na kod źródłowy
-- `📁 lib`: Katalog na zależności
 - `📁 bin`: Katalog, w którym generowane są skompilowane pliki
 
 ## 🚀 Jak Zacząć
