@@ -26,5 +26,5 @@ Aby rozpocząć pracę z tym projektem w Visual Studio Code, wykonaj następują
 
 ## 👥 Autorzy
 
-- Jakub Liszewski
-- Michał Kuznicki
+- LiCHUTKO
+- Kailowsky
